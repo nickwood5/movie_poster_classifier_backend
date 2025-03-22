@@ -4,7 +4,7 @@ import os
 
 # Load the pre-trained model and set it to evaluation mode
 file_dir = os.path.dirname(os.path.abspath(__file__))
-loaded_model = torch.load("model.pt", weights_only=False)
+loaded_model = torch.load(f"{file_dir}/model.pt", weights_only=False)
 loaded_model.eval()
 
 # Define the class labels
