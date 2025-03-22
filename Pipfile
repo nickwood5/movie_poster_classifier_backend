@@ -21,6 +21,8 @@ channels = "*"
 daphne = "*"
 django-stubs = "*"
 django-cors-headers = "*"
+torchvision = "*"
+pillow = "*"
 
 [dev-packages]
 
