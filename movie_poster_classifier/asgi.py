@@ -1,5 +1,5 @@
 """
-ASGI config for mynewproject project.
+ASGI config for movie_poster_classifier project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -9,11 +9,11 @@ https://docs.djangoproject.com/en/5.1/howto/deployment/asgi/
 
 import os
 from channels.routing import ProtocolTypeRouter, URLRouter
-from mynewproject.websocket_urls import websocket_urlpatterns
+from movie_poster_classifier.websocket_urls import websocket_urlpatterns
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mynewproject.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "movie_poster_classifier.settings")
 
 asgi_application = get_asgi_application()
 

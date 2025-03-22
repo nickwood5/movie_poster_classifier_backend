@@ -7,7 +7,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mynewproject.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "movie_poster_classifier.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

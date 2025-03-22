@@ -1,5 +1,5 @@
 """
-URL configuration for mynewproject project.
+URL configuration for movie_poster_classifier project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -17,7 +17,7 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from mynewproject.views.api import api
+from movie_poster_classifier.views.api import api
 
 urlpatterns = [
     path("admin/", admin.site.urls),

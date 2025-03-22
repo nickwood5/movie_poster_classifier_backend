@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MyNewProjectConfig(AppConfig):
+class MoviePosterClassifierConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "mynewproject"
+    name = "movie_poster_classifier"
