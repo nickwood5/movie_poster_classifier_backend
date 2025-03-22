@@ -1,8 +1,10 @@
 import torch
 import torchvision.transforms as transforms
+import os
 
 # Load the pre-trained model and set it to evaluation mode
-loaded_model = torch.load("movie_poster_classifier/views/model.pt", weights_only=False)
+file_dir = os.path.dirname(os.path.abspath(__file__))
+loaded_model = torch.load("model.pt", weights_only=False)
 loaded_model.eval()
 
 # Define the class labels
